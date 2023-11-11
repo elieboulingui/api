@@ -1,0 +1,10 @@
+{
+    "version":2,
+    "nema":"josueAPI",
+    "builds":[
+          {"src":"server.js","use":"@verc/node"}
+    ],
+    "routes":[
+        {"src":"/(.*)","dest":"index.js"}
+    ]
+}

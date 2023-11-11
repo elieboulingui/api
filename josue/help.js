@@ -1,0 +1,1 @@
+exports.success = (message,date)=>{ return{message,date}}
